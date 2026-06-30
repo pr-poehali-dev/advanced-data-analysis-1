@@ -6,9 +6,9 @@ export function Footer() {
       <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">CodeCraft</h3>
+            <h3 className="text-xl font-bold mb-4">SellerHub</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              2025 CodeCraft. Все права защищены.
+              Платформа автоматизации для селлеров Wildberries и Ozon. 2025. Все права защищены.
             </p>
           </div>
 
@@ -16,18 +16,18 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Навигация</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#about" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  О нас
-                </a>
-              </li>
-              <li>
                 <a href="#services" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Услуги
+                  Возможности
                 </a>
               </li>
               <li>
-                <a href="#portfolio" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Портфолио
+                <a href="#about" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  О платформе
+                </a>
+              </li>
+              <li>
+                <a href="#pricing" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  Тарифы
                 </a>
               </li>
               <li>

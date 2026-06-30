@@ -2,19 +2,19 @@ import { Card, CardContent } from "@/components/ui/card"
 import { CheckCircle2, Sparkles } from "lucide-react"
 
 const values = [
-  { title: "Качество", description: "Высококлассные решения, соответствующие самым высоким стандартам" },
-  { title: "Доступность", description: "Профессиональные сайты по честным и прозрачным ценам" },
-  { title: "Прозрачность", description: "Четкая коммуникация без скрытых платежей" },
-  { title: "Клиентоориентированность", description: "Ваши цели и пожелания всегда в приоритете" },
-  { title: "Масштабируемость", description: "Сайты, которые растут вместе с вашим бизнесом" },
-  { title: "Гибкость", description: "Быстрая адаптация под меняющиеся потребности" },
+  { title: "Всё в одном окне", description: "Текст, фото, инфографика и аналитика без переключения между сервисами" },
+  { title: "Реальная прибыль", description: "Видите чистую маржу по каждому товару с учётом всех удержаний" },
+  { title: "ИИ-автоматизация", description: "Искусственный интеллект берёт рутину с карточками на себя" },
+  { title: "WB и Ozon", description: "Поддержка ключевых площадок, список постоянно расширяется" },
+  { title: "Доступно для всех", description: "Инструменты крупных команд теперь для малого и среднего бизнеса" },
+  { title: "Быстрый старт", description: "Подключение по API за пару минут без программистов" },
 ]
 
 const stats = [
-  { number: "50+", label: "Проектов" },
-  { number: "45+", label: "Довольных клиентов" },
-  { number: "30+", label: "Созданных логотипов" },
-  { number: "3+", label: "Года опыта" },
+  { number: "14", label: "Дней бесплатно" },
+  { number: "2", label: "Маркетплейса" },
+  { number: "100%", label: "Данных по API" },
+  { number: "Excel", label: "Выгрузка отчётов" },
 ]
 
 export function AboutSection() {
@@ -27,19 +27,19 @@ export function AboutSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold">
             <Sparkles className="h-4 w-4" />
-            О CodeCraft
+            О платформе
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
-            Качество, которое{" "}
+            Автоматизация, которая{" "}
             <span className="text-primary relative">
-              впечатляет
+              экономит время
               <svg className="absolute -bottom-2 left-0 w-full" height="8" viewBox="0 0 200 8" fill="none">
                 <path d="M0 4C50 2 150 6 200 4" stroke="currentColor" strokeWidth="2" className="text-primary" />
               </svg>
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Создание сайта не должно быть дорогим. Мы разрабатываем индивидуальные решения, которые идеально соответствуют пожеланиям каждого клиента.
+            Наша миссия — сделать инструменты автоматизации, которые раньше были доступны только крупным командам, доступными для каждого селлера.
           </p>
         </div>
 
